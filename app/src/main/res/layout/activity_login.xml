@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tech.pentateuch.activity.LoginActivity"
+    android:background="@android:color/holo_blue_dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relative_login"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/img_btn_logo"
+            android:layout_width="wrap_content"
+            android:background="@null"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_pentateuch"
+            android:layout_toLeftOf="@+id/tv_login"
+            android:layout_toStartOf="@+id/tv_login" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/tv_login"
+            android:textSize="35sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/relative_login">
+
+
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_hint">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_email"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Password">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/et_pass"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20sp"
+        android:id="@+id/btn_login"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/btn_sign"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/primary_text_dark"
+        android:layout_below="@+id/btn_login"
+        android:layout_centerInParent="true"
+        android:background="@null"/>
+</RelativeLayout>

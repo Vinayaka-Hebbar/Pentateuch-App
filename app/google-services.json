@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "221553363277",
+    "firebase_url": "https://pentateuch-b5d30.firebaseio.com",
+    "project_id": "pentateuch-b5d30",
+    "storage_bucket": "pentateuch-b5d30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221553363277:android:3babe6cc4a912a53",
+        "android_client_info": {
+          "package_name": "com.tech.pentateuch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221553363277-g9bk0433fktd3823ug7tfj9hta8i6rdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tech.pentateuch",
+            "certificate_hash": "769961cd26476cd64f78e023974e71ef9f77371b"
+          }
+        },
+        {
+          "client_id": "221553363277-qf5963d0df9sr29qlh1nba1ss8bvutu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt5XRzKAU0eJtQ7d9bOMth8E_h9s8sqVw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221553363277-qf5963d0df9sr29qlh1nba1ss8bvutu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
